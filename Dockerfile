@@ -1,9 +1,9 @@
 FROM openjdk:8u151-jre-alpine3.7
 MAINTAINER Chris Garrett (https://github.com/chris-garrett/docker-tika)
-LABEL description="Tika server 1.17 dockerized"
+LABEL description="Tika server 1.18 dockerized"
 
 ENV DOCKERIZE_VERSION=v0.6.0
-ENV TIKA_VERSION 1.17
+ENV TIKA_VERSION 1.18
 ENV TIKA_SERVER_URL https://www.apache.org/dist/tika/tika-server-$TIKA_VERSION.jar
 
 COPY ./files/bash_profile /home/sprout/.bash_profile
